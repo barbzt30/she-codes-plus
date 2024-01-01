@@ -14,11 +14,12 @@
 <body>
     <div class="weather-app">
     <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
             <input 
             type="search" 
             placeholder="Enter a city ...." 
             required 
+            id="search-form-input"
             class="search-form-input"
             />
             <input type="submit" value="Search" class="search-form-button" />
@@ -26,7 +27,7 @@
     </header>
     <main>
         <div class="weather-app-data">
-            <h1 class="weather-app-city">Capetown</h1>
+            <h1 class="weather-app-city" id="city">Capetown</h1>
             <p class="weather-app-details">
                 Monday 14:49, rainy clouds
                 <br />
@@ -42,12 +43,13 @@
 
     <footer>
         This project was coded by
-        <a href="https://github.com/barbzt30" target="_blank"> Barbra Wasiwo</a>
+        <a href="https://github.com/barbzt30" target="_blank"> Barbra Wasiwo,</a>
         is open-sourced on
         <a href="https://github.com/barbzt30/she-codes-plus.git" target="_blank">Github</a>
         and hosted on
         <a href="https://weather-forecast-barbzt.netlify.app">Netlify</a>
     </footer>
 </div>
+<script src="src/script.js"></script>
 </body>
 </html>
